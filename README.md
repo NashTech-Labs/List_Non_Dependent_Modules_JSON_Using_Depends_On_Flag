@@ -14,8 +14,8 @@ In this template, we will List the Non-dependent modules using the Depends On fl
 
 #### Notes
 
-* We have used component json url file as [naas-component.json](naas-component.json)  that will be presented in our GitHub. 
-* We have used pipeline id url file as [id.json](id.json) that will be presented in our GitHub.
+* We have used component json url file as [naas-component.json](JSON/naas-component.json)  that will be presented in our GitHub. 
+* We have used pipeline id url file as [id.json](JSON/id.json) that will be presented in our GitHub.
 ---
 
 ### Outputs
