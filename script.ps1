@@ -21,11 +21,11 @@ foreach ($number in $test) {
 
         #Matching condition of resource type with the pipeline resources list
         if ($pipeline_resourceType -eq $type_of_resource) {
-            Write-Host $type_of_resource
+            Write-Host "Non-dependent resource type:-"$type_of_resource
 
-        # To fetch the ID url
-        $fetchPipelineId = Invoke-RestMethod -Uri "" ` #Github Raw Json URL for Pipeline ID
-      | Select-Object -ExpandProperty "resources" `
+            # To fetch the ID url
+            $fetchPipelineId = Invoke-RestMethod -Uri "" ` #Github Raw Json URL for Pipeline ID
+            | Select-Object -ExpandProperty "resources" `
       | Where-Object { $_.resourceType -eq $type_of_resource } `
       | Group-Object -Property "pipelineID" `
       | Select-Object -Property Name  | Out-String -NoNewline

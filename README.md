@@ -20,11 +20,16 @@ In this template, we will List the Non-dependent modules using the Depends On fl
 
 ### Outputs
 
-1. Here, In this step, we are running the script :
+1. Here, In this step we are listing the resource type which are dependent by filtering using the depends on flag:
+
+![list-non-dependent-resources.png](assets/list-non-dependent-resources.png)
+
+2. Here, In this step, we are running the script :
 
 ![output-pipeline-calling.png](assets/output-pipeline-calling.png)
 
-2. Here, In this step, we are displaying the output of each pipeline's:
+
+3. Here, In this step, we are displaying the output of each pipeline's:
 
 ![pipeline-app-service-plan.png](assets/pipeline-app-service-plan.png)
 
