@@ -20,7 +20,7 @@ In this template, we will List the Non-dependent modules using the Depends On fl
 
 ### Outputs
 
-1. Here, In this step we are listing the resource type which are dependent by filtering using the depends on flag:
+1. Here, In this step we are listing the resource type which are non-dependent by filtering using the depends on flag:
 
 ![list-non-dependent-resources.png](assets/list-non-dependent-resources.png)
 
